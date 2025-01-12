@@ -222,8 +222,6 @@
 
   - 编译无误后，点击
 
-    - ![image-20240815104955327](../../Personal%20notes/0/yqnodes/docs/notes/embedded/images/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%93%8D/image-20240815104955327.png)
-
     - 进入设置界面
 
       - ![image-20240815105142640](./images/stm32/image-20240815105142640.png)
@@ -233,11 +231,11 @@
       - 标号3处选SW，因为占用IO少，下面的频率一般是4MHZ，通常手动设置为10MHZ，MDK会自动匹配
       - 标号3 表示 MDK 通过仿真器的 SW 接口找到了目标芯片，ID 为0x1BA01477。如果这里显示：No target connected，则表示没找到任何器件，请检查仿真器和开发板连接是否正常？开发板是否供电了？
       - 其他部分使用默认就好
-
+    
       - 然后点击Flash Download，进入FLASH算法设置
         - ![image-20240815105912449](./images/stm32/image-20240815105912449.png)
         - 这里 MDK5 会根据我们新建工程时选择的目标器件，自动设置 flash 算法。我们使用的是 STM32F103ZET6，FLASH 容量为 512K 字节，所以 Programming Algorithm 里面默认会有 512K 型号的 STM32F10x High-density Flash 算法。另外，如果这里没有 flash 算法，大家可以点击 Add 按钮，自行添加即可。最后，选中 Reset and Run 选项，以实现在编程后自动运行，其他默认设置即可。
-
+  
 - 程序下载
   - 设置好一系列参数后，点击下载按钮，ST LINK连接上时常亮，下载时闪烁，下载完成后恢复常亮
 
@@ -526,9 +524,7 @@
 
 #### 9.5 HAL库使用注意事项
 
-- ![image-20240826131005672](../../Personal%20notes/0/yqnodes/docs/notes/embedded/images/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%93%8D/image-20240826131005672.png)
 
-  
 
 ### 10. STM32启动过程浅析
 
@@ -1854,7 +1850,6 @@
 
 ##### 15.8.1 正点原子串口例程
 
-- ![image-20240904175205567](../../Personal%20notes/0/yqnodes/docs/notes/embedded/images/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%93%8D/image-20240904175205567.png)
 - ![image-20240904175221741](./images/stm32/image-20240904175221741.png)
 - ![image-20240904175400881](./images/stm32/image-20240904175400881.png)
 
@@ -2274,7 +2269,6 @@
 #### 16.4 IWDG寄存器
 
 - ![image-20240905101543851](./images/stm32/image-20240905101543851.png)
-- ![image-20240905101553515](../../Personal%20notes/0/yqnodes/docs/notes/embedded/images/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%93%8D/image-20240905101553515.png)
 - ![image-20240905101607655](./images/stm32/image-20240905101607655.png)
 - ![image-20240905101617713](./images/stm32/image-20240905101617713.png)
 - 寄存器配置步骤，主要是使用寄存器开发要熟悉，使用HAL库就了解
