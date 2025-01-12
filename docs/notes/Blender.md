@@ -2,7 +2,7 @@
 
 #### 1. 软件界面功能
 
-![image-20231212202502388](images/blender/image-20231212202502388.png)
+![image-20231212202502388](./images/blender/image-20231212202502388.png)
 
 
 

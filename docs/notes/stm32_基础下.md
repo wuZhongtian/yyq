@@ -963,7 +963,7 @@
 - ![image-20241104141843607](images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104141843607.png)
 - ![image-20241104142505560](images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104142505560.png)
   - 复位脉冲
-    - <img src="images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104142534607-17307015350755.png" alt="image-20241104142534607" style="zoom:80%;" />
+    - <img src="./images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104142534607-17307015350755.png" alt="image-20241104142534607" style="zoom:80%;" />
   - 应答脉冲
     - ![image-20241104143026045](images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104143026045.png)
       - 应答脉冲有两个注意几点
@@ -978,7 +978,7 @@
 
 ### 5.3 DS18B20基本操作步骤
 
-- <img src="images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104145720720.png" alt="image-20241104145720720" style="zoom:67%;" />
+- <img src="./images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104145720720.png" alt="image-20241104145720720" style="zoom:67%;" />
   - 单总线上可以挂载多个从机，每个从机的操作命令都不同，类似于从机的身份证一样
 - ![image-20241104150714189](images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104150714189.png)
 - ![image-20241104150756931](images/stm32_%E5%9F%BA%E7%A1%80%E4%B8%8B/image-20241104150756931.png)
