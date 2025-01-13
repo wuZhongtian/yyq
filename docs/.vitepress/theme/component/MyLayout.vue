@@ -48,9 +48,7 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
 <template>
   <DefaultTheme.Layout>
     <WaterMark />
-    <template #layout-top>
-      <Notice/>
-    </template>
+    <template #layout-top></template>
     <template #layout-bottom>
       <RegisterSW />
       <div class="myFooter">

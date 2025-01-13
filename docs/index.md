@@ -3,29 +3,24 @@
 layout: home
 
 hero:
-  name: "夏之一周间"
-  text: "wudetian.top"
+  name: "壹刻"
+  text: "notes.luckinyu.top"
   tagline: ""
   image:
     src: /logo.png
-    alt: wudetian.top
+    alt: notes.luckinyu.top
   actions:
     - theme: brand
       text: 开始阅读
-      link: /notes/front_end/directory
+      link: /notes/directory
+      color: primary
     - theme: sponsor
-      text: 个人主页
-      link: https://wudetian.top
-    - theme: alt
-      text: GitCode
-      link: https://gitcode.com/wudetian/personal-notes/overview
+      text: 正在建设...
+      link: /
 
 features:
   - icon: 💻
-    title: 前端工作者
-    details: H5C3、Vue、React、小程序、NodeJS、构建工具、设计模式、微前端、前沿概念...
-  - icon: 🕹️
-    title: 嵌入式爱好
+    title: 嵌入式工作者
     details: stm32、esp32、鸿蒙设备、Linux编程、数模电基础、c语言...
   - icon: 🎡
     title: 追求全能

@@ -57,12 +57,12 @@ export default {
     // giscus配置
     giscusTalk(
       {
-        repo: "wuZhongtian/Notable", //仓库
-        repoId: "R_kgDOKbNZTg", //仓库ID
+        repo: "wuZhongtian/yyq", //仓库
+        repoId: "R_kgDONps-hQ", //仓库ID
         category: "Announcements", // 讨论分类
-        categoryId: "DIC_kwDOKbNZTs4CjvsK", //讨论分类ID
+        categoryId: "DIC_kwDONps-hc4Cl-BL", //讨论分类ID
         mapping: "pathname",
-        inputPosition: "bottom",
+        inputPosition: "top",
         lang: "zh-CN",
       },
       {

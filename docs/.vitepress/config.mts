@@ -22,44 +22,18 @@ export default withPwa(
       ],
     },
     sitemap: {
-      hostname: "https://notes.wudetian.top",
+      hostname: "https://notes.luckinyu.com",
     },
-    title: "夏之一周间",
-    description:
-      "夏之一周、夏之一周、前端、前端开发、嵌入式、wudetian、自学编程、吴忠添",
+    title: "壹刻",
+    description: "壹刻、嵌入式、luckinyu、自学编程",
     head: [
       ["link", { rel: "icon", href: "/logo.ico" }],
       [
         "meta",
         {
           name: "keywords",
-          content:
-            "夏之一周间、夏之一周、前端、前端开发、嵌入式、wudetian、自学编程、吴忠添",
+          content: "壹刻、嵌入式、luckinyu、自学编程",
         },
-      ],
-      [
-        "meta",
-        { name: "baidu-site-verification", content: "codeva-HRcMvYvHP8" },
-      ],
-      [
-        "script",
-        {},
-        `(function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "ork2q0e007");`,
-      ],
-      [
-        "script",
-        {},
-        `var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?7d6014f90608f65e2463d1bde602b37a";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();`,
       ],
     ],
     themeConfig: {
@@ -108,182 +82,61 @@ export default withPwa(
       nav: [
         {
           text: "主页",
-          link: "https://wudetian.top/",
+          link: "/",
         },
         {
-          text: "大前端",
-          items: [
-            { text: "NextJS", link: "/notes/front_end/NextJS.md" },
-            { text: "Vue2", link: "/notes/front_end/Vue2.md" },
-            { text: "Vue3", link: "/notes/front_end/Vue3.md" },
-            { text: "React", link: "/notes/front_end/React.md" },
-            { text: "React+", link: "/notes/front_end/React+.md" },
-            { text: "NodeJS", link: "/notes/front_end/NodeJS.md" },
-            { text: "微前端", link: "/notes/front_end/微前端.md" },
-            { text: "前后端通讯", link: "/notes/front_end/前后端通讯.md" },
-            { text: "TypeScript", link: "/notes/front_end/TypeScript.md" },
-            { text: "构建工具", link: "/notes/front_end/构建工具.md" },
-            { text: "ECMAScript", link: "/notes/front_end/ECMAScript.md" },
-            { text: "JS设计模式", link: "/notes/front_end/JS设计模式.md" },
-            { text: "H5C3补充", link: "/notes/front_end/H5C3补充.md" },
-            { text: "其他概念", link: "/notes/front_end/其他概念.md" },
+          text:'笔记',
+          items:[
             {
-              text: "小程序",
+              text: "STM32",
               items: [
-                {
-                  text: "微信小程序",
-                  link: "/notes/front_end/小程序/微信小程序.md",
-                },
-                { text: "Uniapp", link: "/notes/front_end/小程序/uniapp.md" },
-                {
-                  text: "有赞组件",
-                  link: "/notes/front_end/小程序/有赞组件开发.md",
-                },
-                {
-                  text: "饿了么组件",
-                  link: "/notes/front_end/小程序/饿了么组件开发.md",
-                },
+                { text: "上篇", link: "/notes/stm32.md" },
+                { text: "下篇", link: "/notes/stm32_2.md" },
               ],
             },
-            {
-              text: "JS周边",
-              items: [
-                { text: "fabric", link: "/notes/front_end/JS周边库/fabric.md" },
-                { text: "JS周边", link: "/notes/front_end/JS周边库.md" },
-              ],
-            },
-          ],
-        },
-        {
-          text: "嵌入式",
-          items: [
-            { text: "C语言", link: "/notes/embedded/c语言.md" },
-            { text: "模电数电", link: "/notes/embedded/模电数电.md" },
-            { text: "计算机网络", link: "/notes/embedded/计算机网络.md" },
-            { text: "51单片机", link: "/notes/embedded/51单片机.md" },
-            { text: "stm32", link: "/notes/embedded/stm32.md" },
-            { text: "RTOS", link: "/notes/embedded/RTOS.md" },
-            { text: "ESP32-Python", link: "/notes/embedded/ESP32-Python.md" },
-            { text: "其他概念", link: "/notes/embedded/其他概念.md" },
-          ],
-        },
-        {
-          text: "其他技术",
-          items: [
-            {
-              text: "鸿蒙开发",
-              items: [
-                { text: "应用开发", link: "/notes/harmonyos/应用开发.md" },
-                { text: "设备开发", link: "/notes/harmonyos/设备开发.md" },
-              ],
-            },
-            {
-              text: "数据库",
-              items: [
-                { text: "MySQL", link: "/notes/database/MySQL.md" },
-                { text: "MongoDB", link: "/notes/database/MongoDB.md" },
-              ],
-            },
-            { text: "Blender建模", link: "/notes/Blender.md" },
-            { text: "Git", link: "/notes/Git.md" },
-            { text: "Docker", link: "/notes/Docker.md" },
-            { text: "Linux", link: "/notes/Linux.md" },
-            { text: "网络安全", link: "/notes/网络安全.md" },
-            { text: "其他概念", link: "/notes/其他概念.md" },
-            { text: "工具资源", link: "/notes/工具资源.md" },
-          ],
-        },
-        {
-          text: "生活",
-          items: [{ text: "C1驾驶证", link: "/life/C1驾驶证.md" }],
-        },
-        // {
-        //   text: "Gitee",
-        //   link: "https://gitee.com/wuZhongtian",
-        // },
+            { text: "RTOS", link: "/notes/RTOS.md" },
+            { text: "C语言", link: "/notes/C.md" },
+            { text: "Blender建模", link: "/notes/blender.md" },
+            { text: "模拟电路", link: "/notes/模电.md" },
+            { text: "数字电路", link: "/notes/数电.md" },
+            { text: "PCB", link: "/notes/PCB.md" },
+            { text: "万物智联", link: "/notes/万物智联.md" },
+            { text: "Python", link: "/notes/python.md" },
+            // { text: "产品复刻", link: "/notes/产品复刻.md" },
+          ]
+        }
       ],
 
       sidebar: {
-        "/notes/front_end/": [
-          { text: "NextJS", link: "/notes/front_end/NextJS.md" },
-          { text: "Vue2", link: "/notes/front_end/Vue2.md" },
-          { text: "Vue3", link: "/notes/front_end/Vue3.md" },
-          { text: "React", link: "/notes/front_end/React.md" },
-          { text: "React+", link: "/notes/front_end/React+.md" },
-          { text: "NodeJS", link: "/notes/front_end/NodeJS.md" },
-          { text: "微前端", link: "/notes/front_end/微前端.md" },
-          { text: "前后端通讯", link: "/notes/front_end/前后端通讯.md" },
-          { text: "TypeScript", link: "/notes/front_end/TypeScript.md" },
-          { text: "构建工具", link: "/notes/front_end/构建工具.md" },
-          { text: "ECMAScript", link: "/notes/front_end/ECMAScript.md" },
-          { text: "JS设计模式", link: "/notes/front_end/JS设计模式.md" },
-          { text: "H5C3补充", link: "/notes/front_end/H5C3补充.md" },
-          { text: "其他概念", link: "/notes/front_end/其他概念.md" },
-          {
-            text: "小程序",
-            collapsed: true,
-            items: [
-              {
-                text: "微信小程序",
-                link: "/notes/front_end/小程序/微信小程序.md",
-              },
-              { text: "Uniapp", link: "/notes/front_end/小程序/uniapp.md" },
-              {
-                text: "有赞组件",
-                link: "/notes/front_end/小程序/有赞组件开发.md",
-              },
-              {
-                text: "饿了么组件",
-                link: "/notes/front_end/小程序/饿了么组件开发.md",
-              },
-            ],
-          },
-          {
-            text: "JS周边",
-            collapsed: true,
-            items: [
-              { text: "fabric", link: "/notes/front_end/JS周边库/fabric.md" },
-              { text: "JS周边", link: "/notes/front_end/JS周边库.md" },
-            ],
-          },
-        ],
-
-        "/notes/embedded/": [
-          { text: "C语言", link: "/notes/embedded/c语言.md" },
-          { text: "模电数电", link: "/notes/embedded/模电数电.md" },
-          { text: "计算机网络", link: "/notes/embedded/计算机网络.md" },
-          { text: "51单片机", link: "/notes/embedded/51单片机.md" },
-          { text: "stm32", link: "/notes/embedded/stm32.md" },
-          { text: "RTOS", link: "/notes/embedded/RTOS.md" },
-          { text: "ESP32-Python", link: "/notes/embedded/ESP32-Python.md" },
-          { text: "其他概念", link: "/notes/embedded/其他概念.md" },
-        ],
+        // "/notes/embedded/": [
+        //   { text: "C语言", link: "/notes/embedded/C.md" },
+        //   { text: "模电数电", link: "/notes/embedded/模电数电.md" },
+        //   { text: "计算机网络", link: "/notes/embedded/计算机网络.md" },
+        //   { text: "51单片机", link: "/notes/embedded/51单片机.md" },
+        //   { text: "stm32", link: "/notes/embedded/stm32.md" },
+        //
+        //   { text: "ESP32-Python", link: "/notes/embedded/ESP32-Python.md" },
+        //   { text: "其他概念", link: "/notes/embedded/其他概念.md" },
+        // ],
         "/notes/": [
           {
-            text: "鸿蒙开发",
+            text: "STM32",
             collapsed: false,
             items: [
-              { text: "应用开发", link: "/notes/harmonyos/应用开发.md" },
-              { text: "设备开发", link: "/notes/harmonyos/设备开发.md" },
+              { text: "上篇", link: "/notes/stm32.md" },
+              { text: "下篇", link: "/notes/stm32_2.md" },
             ],
           },
-          {
-            text: "数据库",
-            collapsed: false,
-            items: [
-              { text: "MySQL", link: "/notes/database/MySQL.md" },
-              { text: "MongoDB", link: "/notes/database/MongoDB.md" },
-            ],
-          },
-          { text: "Blender建模", link: "/notes/Blender.md" },
-          { text: "Git", link: "/notes/Git.md" },
-          { text: "Docker", link: "/notes/Docker.md" },
-          { text: "Linux", link: "/notes/Linux.md" },
-          { text: "网络安全", link: "/notes/网络安全.md" },
-          { text: "其他概念", link: "/notes/其他概念.md" },
-          { text: "工具资源", link: "/notes/工具资源.md" },
+          { text: "RTOS", link: "/notes/RTOS.md" },
+          { text: "C语言", link: "/notes/C.md" },
+          { text: "Blender建模", link: "/notes/blender.md" },
+          { text: "模拟电路", link: "/notes/模电.md" },
+          { text: "数字电路", link: "/notes/数电.md" },
+          { text: "PCB", link: "/notes/PCB.md" },
+          { text: "万物智联", link: "/notes/万物智联.md" },
+          { text: "Python", link: "/notes/python.md" },
+          // { text: "产品复刻", link: "/notes/产品复刻.md" },
         ],
-        "/life/": [{ text: "C1驾驶证", link: "/life/C1驾驶证.md" }],
       },
 
       socialLinks: [
@@ -297,8 +150,8 @@ export default withPwa(
       ],
 
       footer: {
-        message: `Copyright © 2021-${new Date().getFullYear()}  夏至一周间 `,
-        copyright: `备案号：<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021031240号-1</a>`,
+        message: `Copyright © 2023-${new Date().getFullYear()}  壹刻 `,
+        copyright: `备案号：<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021031240号-2</a>`,
       },
     },
     pwa: {
@@ -308,9 +161,9 @@ export default withPwa(
       registerType: "autoUpdate", // 注册类型为自动更新
       includeManifestIcons: false, // 不包含清单图标
       manifest: {
-        name: "夏之一周间", // 应用名称
-        short_name: "夏之一周间", // 应用的短名称
-        description: "前端打工仔的成长日记", // 应用的描述
+        name: "壹刻", // 应用名称
+        short_name: "壹刻", // 应用的短名称
+        description: "成长日记", // 应用的描述
         start_url: "/", // 应用启动路径
         display: "standalone", // 应用显示模式
         theme_color: "#ffffff",
